@@ -1,5 +1,6 @@
 class Game {
     constructor() {
+        console.log(234);
         this.setup();
     }
 

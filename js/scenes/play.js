@@ -30,6 +30,7 @@ class Play extends Scene {
         this.pauseFlag = true;
         raf.remove(this.raf_id);
         res.pause('bg');
+        res.pause();
         $('#game-pause-btn').classList.remove('active');
     }
 
